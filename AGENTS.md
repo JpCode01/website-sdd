@@ -50,3 +50,14 @@ Read only the skill and files needed for the current stage. Load `references/` o
 
 ## Conventions
 Files and directories use lowercase-kebab-case. Skill source is `.agents/skills/`; `.claude/skills/` is a generated mirror (`scripts/sync-skills.sh` or `scripts/sync-skills.ps1`), never edited by hand. Validate the repository with `scripts/check-repo.sh`.
+
+### Privacy Policy and Data Protection
+
+- **Before publication:** Determine whether the project collects or processes personal data, directly or indirectly, including contact forms, analytics tools, cookies, tracking pixels, and third-party services.
+- **Data minimization:** Collect only the data strictly necessary for the stated purpose.
+- **Transparency:** When personal data is collected, provide a clear and accessible Privacy Policy that complies with applicable data protection laws, including Brazil's LGPD (Law No. 13,709/2018), where applicable. Identify, as appropriate, the purposes of processing, legal bases, data sharing, retention periods, and data subject rights.
+- **Forms:** Explain the purpose of data collection near each form and implement appropriate security measures. Do not assume consent is the appropriate legal basis for every processing activity.
+- **Cookies and tracking:** Do not enable non-essential analytics, tracking pixels, or cookies before implementing an appropriate consent mechanism where required by applicable law. Respect user preferences and allow users to review or change their choices.
+- **Third-party services:** Document integrations that receive personal data and assess their privacy and security implications.
+- **Release gate:** Do not publish the website with active personal data collection or tracking until the applicable transparency, security, and compliance requirements have been defined and implemented.
+- **Institutional websites without data collection:** Do not add forms, analytics, tracking pixels, or non-essential cookies by default. If the website does not process personal data beyond what is strictly necessary for technical operation, assess and document this condition before publication. Do not assume that a Privacy Policy or cookie banner is always legally required.
